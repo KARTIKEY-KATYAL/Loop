@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './Logo'
+import { UserButton } from '@clerk/nextjs'
 
 function Header() {
   return (
@@ -62,6 +63,7 @@ function Header() {
                                 >Get Started</span>
                         </a>
                     </div>
+                        <UserButton/>
                 </div>
             </div>
         </div>
